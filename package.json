@@ -1,5 +1,5 @@
 {
-  "gitRepoUrl": "https://github.com/xjh22222228/nav",
+  "gitRepoUrl": "https://github.com/xyzzen/nav",
   "provider": "Github",
   "branch": "main",
   "hashMode": true,
@@ -12,7 +12,7 @@
   "name": "nav",
   "version": "8.8.0",
   "author": "xiejiahe",
-  "homepage": "https://github.com/xjh22222228/nav",
+  "homepage": "https://github.com/xyzzen/nav",
   "scripts": {
     "ng": "ng",
     "start": "npm run build-start && ng serve --port=7001",
