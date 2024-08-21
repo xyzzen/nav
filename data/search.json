@@ -1,1 +1,39 @@
-[]
+[
+  {
+    "name": "站内",
+    "icon": "https://cdn.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/logo.svg",
+    "placeholder": "站内搜索",
+    "blocked": false,
+    "isInner": true
+  },
+  {
+    "name": "百度",
+    "url": "https://www.baidu.com/s?wd=",
+    "icon": "https://cdn.jsdelivr.net/gh/xjh22222228/nav-web@image/baidu.svg",
+    "placeholder": "百度一下",
+    "blocked": false,
+    "isInner": false
+  },
+  {
+    "name": "Google",
+    "url": "https://www.google.com/search?q=",
+    "icon": "https://cdn.jsdelivr.net/gh/xjh22222228/nav-web@image/google.svg",
+    "blocked": false,
+    "isInner": false
+  },
+  {
+    "name": "必应",
+    "url": "https://cn.bing.com/search?q=",
+    "icon": "https://cdn.jsdelivr.net/gh/xjh22222228/nav-web@image/bing.svg",
+    "blocked": false,
+    "isInner": false
+  },
+  {
+    "name": "搜狗微信搜索",
+    "url": "https://gzh.sogou.com/weixin?ie=utf8&s_from=input&_sug_=y&_sug_type_=&type=2&query=",
+    "icon": "https://weixin.sogou.com/favicon.ico",
+    "placeholder": "",
+    "blocked": false,
+    "isInner": false
+  }
+]
