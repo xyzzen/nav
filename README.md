@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://nav3.cn/?g">
-    <img src="https://cdn.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/logo.svg" width="130" />
+    <img src="https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/logo.svg" width="130" />
   </a>
   <br />
   <b>发现导航</b>
@@ -63,7 +63,6 @@
 - 🍰 多种卡片风格设计
 - 🍰 完全纯静态, 提供自动化部署功能
 - 🍰 三叉树分类、结构清晰、分类清晰
-- 🍰 完全开源，轻松定制化
 
 ## 预览
 
@@ -71,7 +70,7 @@
 - [https://faxian.vercel.app/](https://faxian.vercel.app/)
 - [https://xjh22222228.github.io/nav-web/](https://xjh22222228.github.io/nav-web/)
 
-![Preview](https://cdn.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/preview.gif)
+![Preview](https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/preview.gif)
 
 ## 可以干嘛
 
@@ -113,15 +112,21 @@
 
 自有部署一直不是发现导航的需求目标，但陆续有人问，决定从`v8.8.0`版本开始支持！
 
-[成为我们的会员](https://cdn.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/support2.svg)
+[成为我们的会员](https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/support2.svg)
 
 #### Fork vs 自有部署
 
 |          | 自有部署         | Fork             |
 | -------- | ---------------- | ---------------- |
 | 速度     | 保存即时生效     | 需要等待构建完成 |
-| 成本     | 需要自己有服务器 | 免费             |
-| 数据存储 | 定时`git push`   | 永久存储         |
+| 成本     | 需要自己有服务器 | 各种平台免费部署 |
+| 数据存储 | 需要定时备份     | 永久存储         |
+| 存活状态 | 未知             | 只要`GitHub`还在 |
+| 图片     | 走服务器带宽     | 免费 CDN 加速    |
+
+自有部署只有保存快，其他 `Fork` 完虐！
+
+如果是部署在公司内网可以用`自有部署`，其他强烈建议 `Fork` 模式。
 
 ## 配置说明
 
@@ -133,12 +138,12 @@
 |√ | | branch | 部署分支 |
 |√ | √| hashMode | 路由是否 Hash 模式, 如果是部署在 `github pages` 务必设为 true |
 | | √| password | 自有部署登录密码，`Fork` 用户无需填写 |
-| | √| address | 自有部署, 一旦填写认为你是自有部署，`https://你的域名或IP:7777` |
+| | √| address | 自有部署, 一旦填写认为你是自有部署 |
 |√| √| email | 用户提交收录通知 |
 
 ## 后台
 
-将路由地址修改为 `system` 即可进入，如: https://www.nav3.cn/#/light 修改为 https://www.nav3.cn/#/system
+将路由地址修改为 `system` 即可进入，如: https://www.nav3.cn 修改为 https://www.nav3.cn/system
 
 ## 升级
 
@@ -191,11 +196,11 @@ yarn build
 
 项目于 2018 年到至今一直坚持维护和开源, 经过 N 次的迭代与优化, 如果项目能帮到您是我的荣幸。
 
-您可以请作者喝杯咖啡，继续战斗下去（请备注 Github 名字）~
+您可以请作者喝杯咖啡，继续战斗下去（请备注 GitHub 名字）~
 
-<img src="https://cdn.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/32.png" width="600">
+<img src="https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/32.png" width="600">
 
-<img src="https://cdn.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/thank.png" width="200" />
+<img src="https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/thank.png" width="200" />
 
 ## License
 

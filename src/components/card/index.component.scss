@@ -1,6 +1,15 @@
 .container {
   position: relative;
   height: 100%;
+  ::ng-deep {
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
+    iframe {
+      width: 100%;
+    }
+  }
   .breadcrumb1 {
     padding: 0 0 0 8px;
     font-size: 12px;
@@ -26,6 +35,10 @@
     top: 12px;
     right: 12px;
   }
+}
+
+.progrcode {
+  cursor: pointer;
 }
 
 .standard {
@@ -190,9 +203,7 @@
     align-items: center;
     flex-wrap: wrap;
     row-gap: 5px;
-    a {
-      color: #fff;
-    }
+    color: #fff;
   }
   .tag-item {
     margin-right: 6px;
@@ -202,6 +213,7 @@
     display: flex;
     align-items: center;
     transition: all 0.1s linear;
+    cursor: pointer;
     &:hover {
       opacity: 0.8;
     }

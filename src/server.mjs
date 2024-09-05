@@ -14,7 +14,7 @@ import {
   spiderWeb,
   writeSEO,
   writeTemplate,
-} from './scripts/util.mjs'
+} from '../scripts/util.mjs'
 
 const joinPath = (p) => {
   return path.resolve(process.cwd(), p)
@@ -35,6 +35,7 @@ const app = express()
 app.use(compression())
 app.use(history())
 app.use(bodyParser.json({ limit: '10000mb' }))
+app.use(bodyParser.urlencoded({ limit: '10000mb', extended: true }))
 app.use(
   cors({
     origin: '*',
@@ -131,10 +132,8 @@ app.post('/api/contents/get', (req, res) => {
     const { userViewCount, loginViewCount } = getWebCount(params.webs)
     params.internal.userViewCount = userViewCount
     params.internal.loginViewCount = loginViewCount
-    params.webs = setWeb(params.webs)
-    return res.json({
-      ...params,
-    })
+    params.webs = setWeb(params.webs, params.settings)
+    return res.json(params)
   } catch (error) {
     res.status(500)
     res.json({

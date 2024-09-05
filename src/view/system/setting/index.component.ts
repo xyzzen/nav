@@ -44,6 +44,10 @@ export default class SystemSettingComponent {
     })
   }
 
+  get cdnUrl(): string {
+    return this.validateForm.get('gitHubCDN')?.value
+  }
+
   onLogoChange(data: any) {
     this.settings.favicon = data.cdn || ''
   }
@@ -138,7 +142,7 @@ export default class SystemSettingComponent {
 
   onChangeSideJumpUrl(e: any, idx: number) {
     const value = e.target.value.trim()
-    this.settings.sideThemeImages[idx]['src'] = value
+    this.settings.sideThemeImages[idx]['url'] = value
   }
 
   onDeleteSideBanner(idx: number) {

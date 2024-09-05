@@ -9,6 +9,17 @@ export default [
             title: '开发神器',
             nav: [
               {
+                name: '发现导航',
+                createdAt: '2021-02-18 21:06:06',
+                rate: 5,
+                top: true,
+                desc: '发现导航, 最强轻量级导航网站',
+                icon: 'https://gcore.jsdelivr.net/gh/xjh22222228/nav-web@image/logo.svg',
+                url: 'https://github.com/xjh22222228/nav',
+                breadcrumb: ['实用工具', '开发相关', '开发神器'],
+                id: -1,
+              },
+              {
                 name: 'Github-CLI',
                 createdAt: '2021-02-18 21:06:06',
                 rate: 5,
@@ -1248,7 +1259,7 @@ export default [
                 id: 103,
               },
               {
-                icon: 'https://cdn.jsdelivr.net/gh/txxxjs/fk/ifkdy/2020-03-16/favicon.ico',
+                icon: 'https://gcore.jsdelivr.net/gh/txxxjs/fk/ifkdy/2020-03-16/favicon.ico',
                 name: '疯狂影视搜索',
                 desc: '疯狂影视搜索是一款全能影视搜索引擎，帮你找到最新影视资源，一站拥有无尽影视资源',
                 url: 'http://ifkdy.com/',
@@ -11033,7 +11044,6 @@ export default [
                 desc: 'WEB Developer',
                 url: 'https://www.xiejiahe.com/?from=nav2',
                 createdAt: '2021-01-23 09:32:06',
-                top: true,
                 urls: {},
                 rate: 5,
                 breadcrumb: ['博客看点', '博客看点', '个人博客'],
